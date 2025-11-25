@@ -9,7 +9,7 @@ Dragon
 
 It demonstrates a complete ML pipeline: dataset preparation, CNN creation, training, evaluation, visualization, and model saving.
 
-📂 Project Structure
+Project Structure
 dino-vs-dragon-cnn/
 │
 ├── dino_vs_dragon_cnn.py          # Training script
@@ -23,7 +23,7 @@ dino-vs-dragon-cnn/
 │           └── dragon/
 └── README.md
 
-🚀 Overview
+Overview
 
 This project uses a Convolutional Neural Network (CNN) to distinguish between two image categories: dinosaurs and dragons.
 
@@ -57,7 +57,7 @@ ImageDataGenerator
 
 Convolutional Neural Networks (CNN)
 
-📦 Installation
+Installation
 
 Install necessary libraries:
 
@@ -68,7 +68,7 @@ Run the training script:
 
 python dino_vs_dragon_cnn.py
 
-🧠 Model Architecture
+Model Architecture
 
 The model consists of:
 
@@ -84,7 +84,7 @@ Dense(1) with sigmoid activation
 
 This is a classic architecture for binary classification.
 
-📊 Training Results
+ Training Results
 
 During training, the script displays:
 
@@ -105,7 +105,7 @@ Accuracy
 
 (High accuracy is expected with small sample dataset.)
 
-📁 Dataset
+Dataset
 
 The dataset is structured as:
 
@@ -117,7 +117,7 @@ val/dragon
 
 You can replace the images with real data for more realistic results.
 
-🚀 Future Improvements
+Future Improvements
 
 Possible enhancements:
 
@@ -133,13 +133,13 @@ Deploy with Flask REST API
 
 Convert to TensorFlow Lite for Android
 
-📝 Author
+ Author
 
 Merey Toksanbayeva
 AI / ML Student & Developer
 GitHub: https://github.com/MereyToksanbayeva
 
-⭐ Erasmus+ Ready
+ Erasmus+ Ready
 
 This project meets European ML portfolio standards and is suitable for:
 
